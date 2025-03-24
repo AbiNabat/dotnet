@@ -44,7 +44,7 @@ const AdminView = () => {
         <div className='border border-gray-400'>
             <nav className='-mb-0.5 flex justify-center space-x-6' role='talist'>
                 {menuItem.map((item, index) => (
-                    <button key={item.id} type='button' className='p-4 font-bold text-xl text-black cursor-pointer'>{item.label}</button>
+                    <button key={index} type='button' className='p-4 font-bold text-xl text-black cursor-pointer'>{item.label}</button>
                 ))}
 
             </nav>
